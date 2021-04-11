@@ -3,11 +3,16 @@ import { View, Text, Button, StyleSheet } from 'react-native';
 
 const CategoryMealScreen = (props) => {
     return (
+        //Pop Is only used in stack navigator
         <View style = {styles.screen}>
             <Text>The Category Meal Screen!</Text>
             <Button title="Go to Meal Details Screen!" onPress={ () => {
                 props.navigation.navigate({routeName: 'MealDetail'})
             }}/>
+
+            <Button title="Go Back" onPress= {() => {
+                props.navigation.pop();
+            }} />
         </View>
     )
 }
