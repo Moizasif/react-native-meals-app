@@ -40,7 +40,7 @@ const CategoryMealScreen = (props) => {
              keyExtractor = {(item,index) => item.id}
              data={displayedMeals}
              renderItem={renderMealItem}
-             style={{width:'100%'}}/>
+             style={{width:'95%'}}/>
         </View>
     );
 };
