@@ -36,6 +36,7 @@ const renderGridItem = (itemData) => {
 
 CategoriesScreen.navigationOptions = {
      headerTitle: 'Meal Categories',
+     
     
 };
 
